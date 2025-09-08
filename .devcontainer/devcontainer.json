@@ -28,6 +28,9 @@
 				"[python]": {
 					"editor.defaultFormatter": "ms-python.black-formatter"
 				},
+				"[notebook]": {
+					"editor.defaultFormatter": "ms-python.black-formatter"
+				},
 				"black-formatter.path": [
 					"/home/dev/.local/bin/black"
 				],
