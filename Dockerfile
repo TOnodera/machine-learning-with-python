@@ -1,6 +1,6 @@
 FROM python:3.11.13
 
-RUN apt-get update && apt-get install -y graphviz \
+RUN apt-get update && apt-get install -y graphviz fonts-noto-cjk \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -ms /bin/bash dev -u 1000
